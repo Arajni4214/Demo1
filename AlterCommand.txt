@@ -1,0 +1,55 @@
+++++++++++++++++
+session var ==> online_ltc_app =>online_med_app
+demo_ltc_online_app => demo_med_online_app
+SLTC ==> MedicalApplication
+++++++++++++++++
+
+Alter table  "demo_ltc_online_app---old".app_master ADD  PRIMARY KEY (sl_no)
+ALTER TABLE "demo_ltc_online_app---old".app_master DROP CONSTRAINT app_master_pkey
+ALTER TABLE "demo_ltc_online_app---old".app_master ADD COLUMN sl_nos SERIAL PRIMARY KEY
+
+create sequence "demo_ltc_online_app---old".app_master_sl_no_seq;
+ALTER TABLE "demo_ltc_online_app---old".app_master ALTER  COLUMN sl_no SET default nextval('"demo_ltc_online_app---old".app_master_sl_no_seq'::regclass)
+
+drop sequence "demo_ltc_online_app---old".transaction_master_transaction_id_seq;
+
+======
+https://dataschool.com/learn-sql/copying-data-between-tables/
+https://techdifferences.com/difference-between-delete-and-truncate-in-sql.html
+
+==
+CREATE TABLE demo_ltc_online_app.action_master AS SELECT * FROM online_app.action_master;
+CREATE TABLE demo_ltc_online_app.status_master AS SELECT * FROM online_app.status_master;
+
+CREATE TABLE demo_ltc_online_app.family_details AS SELECT * FROM online_app.family_details WITH NO DATA;
+CREATE TABLE demo_ltc_online_app.ltc_claim_master AS SELECT * FROM online_app.ltc_claim_master WITH NO DATA;
+CREATE TABLE demo_ltc_online_app.ltc_leave_details AS SELECT * FROM online_app.ltc_leave_details WITH NO DATA;
+CREATE TABLE demo_ltc_online_app.ltc_master AS SELECT * FROM online_app.ltc_master WITH NO DATA;
+CREATE TABLE demo_ltc_online_app.sanction_log AS SELECT * FROM online_app.sanction_log WITH NO DATA;
+CREATE TABLE demo_ltc_online_app.transaction_master AS SELECT * FROM online_app.transaction_master WITH NO DATA;
+
+=======
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I want to copy only 4 tables from schema1 to schema2 within same DB in Postgres--
+CREATE TABLE demo_online.holiday
+AS
+SELECT * FROM online_app.holiday;
+
+CREATE TABLE newSchema.newTable
+AS TABLE oldSchema.oldTable;
+
+
+CREATE TABLE [Table to copy To]
+AS [Table to copy From]
+WITH NO DATA;
+
+
+CREATE TABLE new_db.holiday
+    AS
+SELECT * FROM online_app.holiday
+WITH NO DATA;
+
+
+alter schema demo_online_app rename to demo_ltc_online_app;
+
+--
