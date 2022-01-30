@@ -1,0 +1,71 @@
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 ~
+$ cd d:
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ cd :c
+bash: cd: :c: No such file or directory
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ c:
+bash: c:: command not found
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ cd c:
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /c
+$ cd d:
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ cd D:\JavaTraining~
+bash: cd: D:JavaTraining~: No such file or directory
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ pwd
+/d
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ cd "D:\JavaTraining"
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining
+$ ls
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining
+$ git clone https://github.com/Arajni4214/Demo1.git
+Cloning into 'Demo1'...
+remote: Enumerating objects: 89, done.
+remote: Counting objects: 100% (89/89), done.
+remote: Compressing objects: 100% (87/87), done.
+remote: Total 89 (delta 34), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (89/89), 133.88 KiB | 640.00 KiB/s, done.
+Resolving deltas: 100% (34/34), done.
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining
+$ cd Demo1/
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (main)
+$ git checkout -b my_demo_branch
+Switched to a new branch 'my_demo_branch'
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git status
+On branch my_demo_branch
+nothing to commit, working tree clean
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$

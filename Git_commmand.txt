@@ -1,0 +1,243 @@
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 ~
+$ cd d:
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ cd :c
+bash: cd: :c: No such file or directory
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ c:
+bash: c:: command not found
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ cd c:
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /c
+$ cd d:
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ cd D:\JavaTraining~
+bash: cd: D:JavaTraining~: No such file or directory
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ pwd
+/d
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d
+$ cd "D:\JavaTraining"
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining
+$ ls
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining
+$ git clone https://github.com/Arajni4214/Demo1.git
+Cloning into 'Demo1'...
+remote: Enumerating objects: 89, done.
+remote: Counting objects: 100% (89/89), done.
+remote: Compressing objects: 100% (87/87), done.
+remote: Total 89 (delta 34), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (89/89), 133.88 KiB | 640.00 KiB/s, done.
+Resolving deltas: 100% (34/34), done.
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining
+$ cd Demo1/
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (main)
+$ git checkout -b my_demo_branch
+Switched to a new branch 'my_demo_branch'
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git status
+On branch my_demo_branch
+nothing to commit, working tree clean
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ ^C
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git status
+On branch my_demo_branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   AlterCommand.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        AlterCommand - Copy.txt
+        Git_commmand.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git gui
+git add.
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git status
+On branch my_demo_branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   AlterCommand.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        AlterCommand - Copy.txt
+        Git_commmand.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git add .
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git commit -m "update demo records"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Arun Ruhela@DESKTOP-R5PS65A.(none)')
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git config --global user.email arun.ruhela22@gmail.com
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git config --global user.name Arajni4214
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git push
+fatal: The current branch my_demo_branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin my_demo_branch
+
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git push --set-upstream origin my_demo_branch
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'my_demo_branch' on GitHub by visiting:
+remote:      https://github.com/Arajni4214/Demo1/pull/new/my_demo_branch
+remote:
+To https://github.com/Arajni4214/Demo1.git
+ * [new branch]      my_demo_branch -> my_demo_branch
+branch 'my_demo_branch' set up to track 'origin/my_demo_branch'.
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git checkout main
+Switched to branch 'main'
+A       AlterCommand - Copy.txt
+M       AlterCommand.txt
+A       Git_commmand.txt
+Your branch is up to date with 'origin/main'.
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   AlterCommand - Copy.txt
+        modified:   AlterCommand.txt
+        new file:   Git_commmand.txt
+
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (main)
+$ git checkout my_demo_branch
+Switched to branch 'my_demo_branch'
+A       AlterCommand - Copy.txt
+M       AlterCommand.txt
+A       Git_commmand.txt
+Your branch is up to date with 'origin/my_demo_branch'.
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git status
+On branch my_demo_branch
+Your branch is up to date with 'origin/my_demo_branch'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   AlterCommand - Copy.txt
+        modified:   AlterCommand.txt
+        new file:   Git_commmand.txt
+
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ cd "D:\JavaTraining\Demo1\tet~"
+bash: cd: D:\JavaTraining\Demo1\tet~: No such file or directory
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (my_demo_branch)
+$ git checkout -b new_branch
+Switched to a new branch 'new_branch'
+
+Arun Ruhela@DESKTOP-R5PS65A MINGW64 /d/JavaTraining/Demo1 (new_branch)
+$
